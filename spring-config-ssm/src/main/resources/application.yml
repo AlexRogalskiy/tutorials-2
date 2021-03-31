@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: codeal
+  profiles:
+    active: prod
+
+cloud:
+  aws:
+    stack:
+      auto: false
+    region:
+      auto: false
